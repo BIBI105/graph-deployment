@@ -51,13 +51,7 @@ After the command succeeds, the Kubernetes cluster will be created.
 For the zonal cluster, run:
 
 ```
-gcloud container clusters get-credentials <cluster_name> --zone <cluster_zone> --project <gcp_project>
-```
-
-For the regional cluster, run:
-
-```
-gcloud container clusters get-credentials <cluster_name> --region <cluster_region> --project <gcp_project>
+gcloud container clusters get-credentials taikol2subgraph --region us-central1 --project eth2mining
 ```
 
 ### Test that kubectl config works
